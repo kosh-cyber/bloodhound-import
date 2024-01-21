@@ -1,8 +1,8 @@
 import argparse
 import asyncio
 import logging
-from bloodhound_import import database
-from bloodhound_import.importer import parse_file, add_constraints
+import database
+from importer import parse_file, add_constraints
 from neo4j.exceptions import ClientError
 
 
